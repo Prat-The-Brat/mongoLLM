@@ -1,10 +1,10 @@
 import pymongo
 import openai
 import os
-from llama_index import VectorStoreIndex, StorageContext, SimpleDirectoryReader
-from llama_index.storage.docstore import MongoDocumentStore
-from llama_index.storage.index_store import MongoIndexStore
-from llama_index.storage.storage_context import StorageContext
+from llama_index.core import VectorStoreIndex, StorageContext, SimpleDirectoryReader
+from llama_index.core.storage.docstore import MongoDocumentStore
+from llama_index.core.storage.index_store import MongoIndexStore
+from llama_index.core.storage.storage_context import StorageContext
 from dotenv import load_dotenv
 
 load_dotenv()
